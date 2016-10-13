@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rss xmlns:media="http://search.yahoo.com/mrss/" xmlns:xumo="http://www.xumo.com/rss/extensions/" xmlns:dcterms="http://purl.org/dc/terms/" version="2.0">
+<channel>
+  <title><![CDATA[{{{podcast.title}}}]]></title>
+  <description><![CDATA[{{{podcast.description}}}]]></description>
+  <pubDate>{{podcast.publishDate}}</pubDate>
+  {{#each audios}}
+  <item>
+    <guid isPermaLink="false">{{id}}</guid>
+    <title><![CDATA[{{{title}}}]]></title>
+    <description><![CDATA[{{{description}}}]]></description>
+    <pubDate>{{publishDate}}</pubDate>
+  </item>
+  {{/each}}
+</channel>
+</rss>

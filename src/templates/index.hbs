@@ -1,0 +1,27 @@
+<html>
+<head>
+<style>
+  body {
+    background:#fff;
+    color:#222;
+    cursor:auto;
+    font-family:Helvetica,sans-serif;
+    font-style:normal;
+    line-height:1.5;
+    padding:0;
+  }
+  li {
+    display:block;
+    list-style:none;
+  }
+</style>
+</head>
+<body>
+<h1>{{podcast.title}}</h1>
+<ul>
+{{#each audios}}
+  <li><a href="">{{slug}}</a></li>
+{{/each}}
+</ul>
+</body>
+</html>

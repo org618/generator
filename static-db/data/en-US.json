@@ -1,0 +1,344 @@
+{
+  "items": [
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "ghs71ry1f8qc"
+          }
+        },
+        "id": "4PaYvD36T6eAgGkmuciaeW",
+        "type": "Entry",
+        "createdAt": "2016-10-13T22:37:13.485Z",
+        "updatedAt": "2016-10-13T22:37:19.129Z",
+        "revision": 2,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "audio"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "How It Fits Together"
+        },
+        "slug": {
+          "en-US": "how-it-fits-together"
+        },
+        "description": {
+          "en-US": "Pierce-20020706-HowItFitsTogether"
+        },
+        "publishDate": {
+          "en-US": "2016-10-13T00:00-06:00"
+        },
+        "podcast": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "1Vx7CroSoI4qAKM4aiOi2O"
+            }
+          }
+        },
+        "asset": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "5tB5h0qT8AWq6cYOGO4sE4"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "ghs71ry1f8qc"
+          }
+        },
+        "id": "2AHw8sXW8QCyw02QEQqK8q",
+        "type": "Entry",
+        "createdAt": "2016-10-13T22:35:47.882Z",
+        "updatedAt": "2016-10-13T22:35:47.882Z",
+        "revision": 1,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "audio"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "A Question Of Sanity"
+        },
+        "slug": {
+          "en-US": "a-question-of-sanity"
+        },
+        "description": {
+          "en-US": "Pierce-20020713-AQuestionOfSanity"
+        },
+        "publishDate": {
+          "en-US": "2016-10-13T00:00-06:00"
+        },
+        "podcast": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "1Vx7CroSoI4qAKM4aiOi2O"
+            }
+          }
+        },
+        "asset": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "43A6442Ip2uyUqUY8yQGWw"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "ghs71ry1f8qc"
+          }
+        },
+        "id": "6ybqMbeWM8sOUeIYWSIe2c",
+        "type": "Entry",
+        "createdAt": "2016-10-13T22:34:02.070Z",
+        "updatedAt": "2016-10-13T22:34:02.070Z",
+        "revision": 1,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "audio"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Katyn"
+        },
+        "slug": {
+          "en-US": "katyn"
+        },
+        "description": {
+          "en-US": "Pierce-20020720-Katyn"
+        },
+        "publishDate": {
+          "en-US": "2016-10-13T00:00-06:00"
+        },
+        "podcast": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "1Vx7CroSoI4qAKM4aiOi2O"
+            }
+          }
+        },
+        "asset": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "4rbUoqEdPaSKEcqgCwUqqa"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "ghs71ry1f8qc"
+          }
+        },
+        "id": "1Vx7CroSoI4qAKM4aiOi2O",
+        "type": "Entry",
+        "createdAt": "2016-10-13T22:32:15.364Z",
+        "updatedAt": "2016-10-13T22:32:15.364Z",
+        "revision": 1,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "podcast"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Cinemacaust"
+        },
+        "slug": {
+          "en-US": "cinemacaust"
+        },
+        "subtitle": {
+          "en-US": "movie views without the jews"
+        },
+        "description": {
+          "en-US": "Join Frank, Jim & Mark as they take a deep dive into some of the greatest movies and TV show ever made."
+        },
+        "image": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "3cF5QM2GmcO6qyAKumqw0y"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "ghs71ry1f8qc"
+          }
+        },
+        "id": "5tB5h0qT8AWq6cYOGO4sE4",
+        "type": "Asset",
+        "createdAt": "2016-10-13T22:36:52.757Z",
+        "updatedAt": "2016-10-13T22:36:52.757Z",
+        "revision": 1
+      },
+      "fields": {
+        "title": {
+          "en-US": "Pierce-20020706-HowItFitsTogether"
+        },
+        "file": {
+          "en-US": {
+            "url": "//assets.contentful.com/ghs71ry1f8qc/5tB5h0qT8AWq6cYOGO4sE4/1918d838f199090955d8325ac3cb607e/Pierce-20020706-HowItFitsTogether.mp3",
+            "details": {
+              "size": 5870009
+            },
+            "fileName": "Pierce-20020706-HowItFitsTogether.mp3",
+            "contentType": "audio/mpeg"
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "ghs71ry1f8qc"
+          }
+        },
+        "id": "43A6442Ip2uyUqUY8yQGWw",
+        "type": "Asset",
+        "createdAt": "2016-10-13T22:35:05.241Z",
+        "updatedAt": "2016-10-13T22:35:05.241Z",
+        "revision": 1
+      },
+      "fields": {
+        "title": {
+          "en-US": "Pierce-20020713-AQuestionOfSanity"
+        },
+        "file": {
+          "en-US": {
+            "url": "//assets.contentful.com/ghs71ry1f8qc/43A6442Ip2uyUqUY8yQGWw/a3797aab6006e03f6801018bde17702d/Pierce-20020713-AQuestionOfSanity.mp3",
+            "details": {
+              "size": 5490569
+            },
+            "fileName": "Pierce-20020713-AQuestionOfSanity.mp3",
+            "contentType": "audio/mpeg"
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "ghs71ry1f8qc"
+          }
+        },
+        "id": "4rbUoqEdPaSKEcqgCwUqqa",
+        "type": "Asset",
+        "createdAt": "2016-10-13T22:33:38.111Z",
+        "updatedAt": "2016-10-13T22:33:38.111Z",
+        "revision": 1
+      },
+      "fields": {
+        "title": {
+          "en-US": "Pierce-20020720-Katyn"
+        },
+        "file": {
+          "en-US": {
+            "url": "//assets.contentful.com/ghs71ry1f8qc/4rbUoqEdPaSKEcqgCwUqqa/f15a3ab69b034574d3591ff9bc108b66/Pierce-20020720-Katyn.mp3",
+            "details": {
+              "size": 5361242
+            },
+            "fileName": "Pierce-20020720-Katyn.mp3",
+            "contentType": "audio/mpeg"
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "ghs71ry1f8qc"
+          }
+        },
+        "id": "3cF5QM2GmcO6qyAKumqw0y",
+        "type": "Asset",
+        "createdAt": "2016-10-13T22:27:41.619Z",
+        "updatedAt": "2016-10-13T22:27:41.619Z",
+        "revision": 1
+      },
+      "fields": {
+        "title": {
+          "en-US": "generic-podcast-thumbnail"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.contentful.com/ghs71ry1f8qc/3cF5QM2GmcO6qyAKumqw0y/555ce9e9a125b01c8eb7b86144074240/generic-podcast-thumbnail.jpg",
+            "details": {
+              "size": 214476,
+              "image": {
+                "width": 3000,
+                "height": 3000
+              }
+            },
+            "fileName": "generic-podcast-thumbnail.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    }
+  ],
+  "nextSyncToken": "w5ZGw6JFwqZmVcKsE8Kow4grw45QdybCoXfDssKJbhPDgTN_wqPDuCTDssOWPcKQWT9PBMOgf8OnwoJOXsKsLcOpDsOCJsOSEsKxPVXDkXnCv3DCm8KXw7hnEMKMwo02B8OOwo_Co8Kkw4fCosKKNcO_wrnDjsKew5Yw"
+}
