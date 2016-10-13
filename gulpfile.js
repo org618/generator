@@ -64,6 +64,12 @@ gulp.task('render', ['clean', 'db:sync'], function () {
 
       let audios = db.get_all(language, 'audio');
       // console.log(audios);
+      _.each(audios, (audio) => {
+        // console.log(audio.asset.file.url);
+        audio['media'] = `https:${audio.asset.file.url}`;
+
+        console.log(audio.media);
+      });
 
       //console.log('\t', `[ ${language} ]`, podcasts.items.length, 'items');
 
