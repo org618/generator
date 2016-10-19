@@ -49,6 +49,19 @@ gulp.task('db:sync', function (cb) {
   );
 });
 
+function msToHMS(duration) {
+  var seconds = duration / 1000;
+  var hours = parseInt( seconds / 3600 ); // 3,600 seconds in 1 hour
+  seconds = seconds % 3600; // seconds remaining after extracting hours
+  var minutes = parseInt( seconds / 60 ); // 60 seconds in 1 minute
+  seconds = seconds % 60;
+  seconds = Math.round(seconds);
+  if (hours < 10) { hours = '0' + hours};
+  if (minutes < 10) { minutes = '0' + minutes};
+  if (seconds < 10) { seconds = '0' + seconds};
+  return hours+':'+minutes+':'+seconds;
+}
+
 gulp.task('render', ['clean', 'db:sync'], function () {
   _.each(db.languages(), (language) => {
     // --language was passed. skip this language?
@@ -59,16 +72,15 @@ gulp.task('render', ['clean', 'db:sync'], function () {
       // console.log('\t', `[ ${language} ]`, localized_db.items.length, 'items');
 
       let podcasts = db.get_all(language, 'podcast');
+      // podcasts[0]['image'] = `https:${podcasts[0].image.file.url}`;
       // console.log(podcasts[0].image.file.url);
       // console.log(podcasts);
 
-      let audios = db.get_all(language, 'audio');
+      let episodes = db.get_all(language, 'episode');
       // console.log(audios);
-      _.each(audios, (audio) => {
+      _.each(episodes, (episode) => {
         // console.log(audio.asset.file.url);
-        audio['media'] = `https:${audio.asset.file.url}`;
-
-        console.log(audio.media);
+        episode['media'] = `https:${episode.asset.file.url}`;
       });
 
       //console.log('\t', `[ ${language} ]`, podcasts.items.length, 'items');
@@ -80,7 +92,7 @@ gulp.task('render', ['clean', 'db:sync'], function () {
       // render index.html
       var data = {
         podcast: podcasts[0],
-        audios: audios
+        episodes: episodes
       };
 
       gulp
@@ -89,15 +101,15 @@ gulp.task('render', ['clean', 'db:sync'], function () {
           .data(data)
         )
         .pipe(rename('index.html'))
-        .pipe(gulp.dest('./public/'))
+        .pipe(gulp.dest('./public/'));
 
-        gulp
-          .src('./src/templates/feed.hbs')
-          .pipe(hb()
-            .data(data)
-          )
-          .pipe(rename('feed.rss'))
-          .pipe(gulp.dest('./public/'))
+      gulp
+        .src('./src/templates/feed.hbs')
+        .pipe(hb()
+          .data(data)
+        )
+        .pipe(rename('feed.rss'))
+        .pipe(gulp.dest('./public/'));
 
     }
   });

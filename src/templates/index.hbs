@@ -14,12 +14,18 @@
     display:block;
     list-style:none;
   }
+  .podcast_image {
+    width: 300px;
+  }
 </style>
 </head>
 <body>
-<h1>{{podcast.title}}</h1>
+<img class="podcast_image" src="https:{{podcast.image.file.url}}"/>
+<h1>{{{podcast.title}}}</h1>
+<h2>{{{podcast.subtitle}}}</h2>
+<p>{{{podcast.description}}}</p>
 <ul>
-{{#each audios}}
+{{#each episodes}}
   <li><a href="{{media}}">{{slug}}</a></li>
 {{/each}}
 </ul>
