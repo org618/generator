@@ -10,23 +10,32 @@
     line-height:1.5;
     padding:0;
   }
+  ul {
+    padding:0;
+  }
   li {
     display:block;
     list-style:none;
   }
+  .center {
+    margin:auto;
+    width:50%;
+    padding:10px;
+  }
   .podcast_image {
-    width: 300px;
+    width:100%;
+    max-width:600px;
   }
 </style>
 </head>
-<body>
+<body class="center">
 <img class="podcast_image" src="https:{{podcast.image.file.url}}"/>
 <h1>{{{podcast.title}}}</h1>
 <h2>{{{podcast.subtitle}}}</h2>
 <p>{{{podcast.description}}}</p>
 <ul>
 {{#each episodes}}
-  <li><a href="{{media}}">{{slug}}</a></li>
+<li><a href="{{media}}">{{slug}}</a></li>
 {{/each}}
 </ul>
 </body>
