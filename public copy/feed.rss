@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rss xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+<channel>
+  <atom:link href="http://cinemacaust.com/feed.rss" rel="self" type="application/rss+xml"/>
+  <title><![CDATA[Cinemacaust]]></title>
+  <description><![CDATA[Join Frank, Jim & Mark as they take a deep dive into some of the greatest movies ever made.]]></description>
+  <pubDate></pubDate>
+  <language>en</language>
+  <copyright>All rights reserved</copyright>
+  <link>http://cinemacaust.com</link>
+  <image>
+    <url>https://images.contentful.com/ghs71ry1f8qc/3cF5QM2GmcO6qyAKumqw0y/555ce9e9a125b01c8eb7b86144074240/generic-podcast-thumbnail.jpg</url>
+    <title><![CDATA[Cinemacaust]]></title>
+    <link>http://cinemacaust.com</link>
+  </image>
+  <itunes:subtitle><![CDATA[aristocratic views]]></itunes:subtitle>
+  <itunes:owner>
+    <itunes:name><![CDATA[Cinemacaust]]></itunes:name>
+    <itunes:email>podcast@cinemacaust.com</itunes:email>
+  </itunes:owner>
+  <itunes:author>cinemacaust</itunes:author>
+  <itunes:explicit>yes</itunes:explicit>
+  <itunes:image href="https://images.contentful.com/ghs71ry1f8qc/3cF5QM2GmcO6qyAKumqw0y/555ce9e9a125b01c8eb7b86144074240/generic-podcast-thumbnail.jpg"/>
+  <itunes:category text="Society &amp; Culture"/>
+  <item>
+    <guid isPermaLink="false">5jcnJXfWucoO2CEYMcyy6Y</guid>
+    <title><![CDATA[Episode-1]]></title>
+    <description><![CDATA[Mustache aesthetic snackwave trust fund messenger bag listicle yr, brunch blog. Health goth williamsburg flannel, plaid brunch chambray kale chips. Pour-over VHS organic actually normcore. ]]></description>
+    <pubDate>2016-10-01T00:00-06:00</pubDate>
+    <enclosure type="audio/mpeg" url="https://assets.contentful.com/ghs71ry1f8qc/ZYuVrUuWmiE0mg66ECqe8/78c75267e2b1c3d595d940d929c19015/generic-podcast-theme.mp3"/>
+    <itunes:author>cinemacaust</itunes:author>
+    <itunes:explicit>yes</itunes:explicit>
+    <itunes:summary><![CDATA[Mustache aesthetic snackwave trust fund messenger bag listicle yr, brunch blog. Health goth williamsburg flannel, plaid brunch chambray kale chips. Pour-over VHS organic actually normcore. ]]></itunes:summary>
+    <itunes:subtitle><![CDATA[number one]]></itunes:subtitle>
+  </item>
+  <item>
+    <guid isPermaLink="false">22NCeFvtJyA0OQWmEgYwCc</guid>
+    <title><![CDATA[Episode-2]]></title>
+    <description><![CDATA[Seitan lomo single-origin coffee, literally kogi microdosing occupy post-ironic listicle retro crucifix messenger bag chambray glossier subway tile. Helvetica vaporware vape humblebrag before they sold out.]]></description>
+    <pubDate>2016-10-01T00:00-06:00</pubDate>
+    <enclosure type="audio/mpeg" url="https://assets.contentful.com/ghs71ry1f8qc/ZYuVrUuWmiE0mg66ECqe8/78c75267e2b1c3d595d940d929c19015/generic-podcast-theme.mp3"/>
+    <itunes:author>cinemacaust</itunes:author>
+    <itunes:explicit>yes</itunes:explicit>
+    <itunes:summary><![CDATA[Seitan lomo single-origin coffee, literally kogi microdosing occupy post-ironic listicle retro crucifix messenger bag chambray glossier subway tile. Helvetica vaporware vape humblebrag before they sold out.]]></itunes:summary>
+    <itunes:subtitle><![CDATA[number one]]></itunes:subtitle>
+  </item>
+  <item>
+    <guid isPermaLink="false">3tuiYihpLamMGgGKC4O8qU</guid>
+    <title><![CDATA[Episode-3]]></title>
+    <description><![CDATA[Letterpress enamel pin wolf, flannel sriracha portland pork belly forage jianbing tumblr. Williamsburg man braid viral, raw denim DIY kale chips waistcoat vaporware gluten-free 3 wolf moon everyday carry occupy tattooed shoreditch. ]]></description>
+    <pubDate>2016-10-01T00:00-06:00</pubDate>
+    <enclosure type="audio/mpeg" url="https://assets.contentful.com/ghs71ry1f8qc/ZYuVrUuWmiE0mg66ECqe8/78c75267e2b1c3d595d940d929c19015/generic-podcast-theme.mp3"/>
+    <itunes:author>cinemacaust</itunes:author>
+    <itunes:explicit>yes</itunes:explicit>
+    <itunes:summary><![CDATA[Letterpress enamel pin wolf, flannel sriracha portland pork belly forage jianbing tumblr. Williamsburg man braid viral, raw denim DIY kale chips waistcoat vaporware gluten-free 3 wolf moon everyday carry occupy tattooed shoreditch. ]]></itunes:summary>
+    <itunes:subtitle><![CDATA[number one]]></itunes:subtitle>
+  </item>
+</channel>
+</rss>

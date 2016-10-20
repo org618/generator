@@ -25,9 +25,10 @@ const env = process.env.NODE_ENV || 'development';
 //
 
 gulp.task('clean', function () {
-  return del([
-    './public/**/*'
-  ]);
+  // return del([
+  //   './public/**/*.html',
+  //   './public/**/*.rss'
+  // ]);
 });
 
 // get most recent data
@@ -95,13 +96,13 @@ gulp.task('render', ['clean', 'db:sync'], function () {
         episodes: episodes
       };
 
-      gulp
-        .src('./src/templates/index.hbs')
-        .pipe(hb()
-          .data(data)
-        )
-        .pipe(rename('index.html'))
-        .pipe(gulp.dest('./public/'));
+      // gulp
+      //   .src('./src/templates/index.hbs')
+      //   .pipe(hb()
+      //     .data(data)
+      //   )
+      //   .pipe(rename('index.html'))
+      //   .pipe(gulp.dest('./public/'));
 
       gulp
         .src('./src/templates/feed.hbs')
