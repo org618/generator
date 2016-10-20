@@ -12,8 +12,8 @@
         "id": "1Vx7CroSoI4qAKM4aiOi2O",
         "type": "Entry",
         "createdAt": "2016-10-13T22:32:15.364Z",
-        "updatedAt": "2016-10-19T19:17:47.216Z",
-        "revision": 3,
+        "updatedAt": "2016-10-20T04:39:06.821Z",
+        "revision": 4,
         "contentType": {
           "sys": {
             "type": "Link",
@@ -24,10 +24,10 @@
       },
       "fields": {
         "title": {
-          "en-US": "Cinemacaust"
+          "en-US": "The Third Reel"
         },
         "slug": {
-          "en-US": "cinemacaust"
+          "en-US": "the-third-reel"
         },
         "subtitle": {
           "en-US": "aristocratic views"
@@ -287,5 +287,5 @@
       }
     }
   ],
-  "nextSyncToken": "w5ZGw6JFwqZmVcKsE8Kow4grw45QdybCkk7Ds8K1dcO6CMKew7HCuMOOCl_DvcONwopmw6_CrMO9wo3CksOCw63DjMKIaSJlM8OvYi3Ck8O6UsKqw4zDqXXCi8OMw5XCoRjDpsKeSG3CqmzDhcKAw70lwq_CryUzLMKPw79hw7o"
+  "nextSyncToken": "w5ZGw6JFwqZmVcKsE8Kow4grw45QdybCiFjDmgHCq0PDmsOEw5t3wqMFw4daFn1xMcOGwoQnw5Q-wqcCwpDCugBAw6ElSzg5w6tpHMONw449fHHCiBnDoUomGcK6f3ciwp_ClWbDvsOcfsKZCMObw4grUA"
 }
