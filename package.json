@@ -5,6 +5,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
+    "start": "node ./server.js",
     "dev": "gulp"
   },
   "engines": {
@@ -28,5 +29,9 @@
     "lodash": "^4.14.1",
     "moment": "^2.13.0",
     "yargs": "^4.3.2"
+  },
+  "devDependencies": {
+    "express": "^4.14.0",
+    "gulp-nodemon": "^1.0.5"
   }
 }

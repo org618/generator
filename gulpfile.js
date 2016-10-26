@@ -9,6 +9,7 @@ const hb = require('gulp-hb');
 const layouts = require('handlebars-layouts');
 const helpers = require('handlebars-helpers');
 const concat = require('gulp-concat');
+const nodemon = require('gulp-nodemon');
 const argv = require('yargs').alias('l', 'language').alias('x', 'exclude').argv;
 const _ = require('lodash');
 const del = require('del');
@@ -114,6 +115,55 @@ gulp.task('render', ['clean', 'db:sync'], function () {
 
     }
   });
+});
+
+//
+// dev only tasks
+//
+
+gulp.task('watch', function () {
+  gulp.watch([
+    './src/lib/**/*.js',
+    './src/middleware/**/*.js',
+    './src/setup/**/*.js',
+    './src/routes/**/*.js',
+    './src/templates/**/*.hbs',
+    './src/server.js'
+  ], [
+    // 'jshint'
+  ])
+    .on('change', function (event) {
+      console.log(event.path + ' was ' + event.type);
+    });
+});
+
+gulp.task('dev', [/*'jshint',*/ 'render', 'watch'], function () {
+   nodemon({
+    script: './src/server.js',
+    ext: 'js, hbs',
+    cwd: '.',
+    ignore: [
+      'node_modules/**'
+    ],
+    env: {
+      'NODE_ENV': 'development'
+    },
+    watch: [
+      '/src/data/**/*',
+      '/src/templates/**/*',
+      '/src/js/**/*',
+      '/src/data/**/*',
+      '/src/lib/**/*',
+      '/src/middleware/**/*',
+      '/src/routes/**/*',
+      '/src/setup/**/*',
+      '/src/server.js'
+    ]
+  })
+    // .on('change', [
+    //   // 'jshint',
+    //   'render'
+    // ]);
 });
 
 gulp.task('build', ['render'], function () {
