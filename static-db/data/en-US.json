@@ -12,8 +12,8 @@
         "id": "1Vx7CroSoI4qAKM4aiOi2O",
         "type": "Entry",
         "createdAt": "2016-10-13T22:32:15.364Z",
-        "updatedAt": "2016-10-20T04:39:06.821Z",
-        "revision": 4,
+        "updatedAt": "2016-10-28T23:37:58.054Z",
+        "revision": 5,
         "contentType": {
           "sys": {
             "type": "Link",
@@ -30,7 +30,7 @@
           "en-US": "the-third-reel"
         },
         "subtitle": {
-          "en-US": "aristocratic views"
+          "en-US": "cinema talk for aristocrats"
         },
         "description": {
           "en-US": "Join Frank, Jim & Mark as they take a deep dive into some of the greatest movies ever made."
@@ -124,8 +124,8 @@
         "id": "3tuiYihpLamMGgGKC4O8qU",
         "type": "Entry",
         "createdAt": "2016-10-19T19:47:21.313Z",
-        "updatedAt": "2016-10-19T19:47:21.313Z",
-        "revision": 1,
+        "updatedAt": "2016-10-28T18:28:22.285Z",
+        "revision": 2,
         "contentType": {
           "sys": {
             "type": "Link",
@@ -167,6 +167,15 @@
               "id": "ZYuVrUuWmiE0mg66ECqe8"
             }
           }
+        },
+        "volume": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "4lLV5CPss028GGIUO0yMA0"
+            }
+          }
         }
       }
     },
@@ -182,8 +191,8 @@
         "id": "22NCeFvtJyA0OQWmEgYwCc",
         "type": "Entry",
         "createdAt": "2016-10-19T19:47:10.016Z",
-        "updatedAt": "2016-10-19T19:47:10.016Z",
-        "revision": 1,
+        "updatedAt": "2016-10-28T18:28:12.386Z",
+        "revision": 2,
         "contentType": {
           "sys": {
             "type": "Link",
@@ -225,6 +234,15 @@
               "id": "ZYuVrUuWmiE0mg66ECqe8"
             }
           }
+        },
+        "volume": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "4lLV5CPss028GGIUO0yMA0"
+            }
+          }
         }
       }
     },
@@ -240,8 +258,8 @@
         "id": "5jcnJXfWucoO2CEYMcyy6Y",
         "type": "Entry",
         "createdAt": "2016-10-19T19:46:18.470Z",
-        "updatedAt": "2016-10-19T19:46:18.470Z",
-        "revision": 1,
+        "updatedAt": "2016-10-28T18:28:04.156Z",
+        "revision": 2,
         "contentType": {
           "sys": {
             "type": "Link",
@@ -283,9 +301,49 @@
               "id": "ZYuVrUuWmiE0mg66ECqe8"
             }
           }
+        },
+        "volume": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "4lLV5CPss028GGIUO0yMA0"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "ghs71ry1f8qc"
+          }
+        },
+        "id": "4lLV5CPss028GGIUO0yMA0",
+        "type": "Entry",
+        "createdAt": "2016-10-28T18:27:51.935Z",
+        "updatedAt": "2016-10-28T18:27:51.935Z",
+        "revision": 1,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "volume"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Merchant Madness"
+        },
+        "slug": {
+          "en-US": "merchant-madness"
         }
       }
     }
   ],
-  "nextSyncToken": "w5ZGw6JFwqZmVcKsE8Kow4grw45QdybCiFjDmgHCq0PDmsOEw5t3wqMFw4daFn1xMcOGwoQnw5Q-wqcCwpDCugBAw6ElSzg5w6tpHMONw449fHHCiBnDoUomGcK6f3ciwp_ClWbDvsOcfsKZCMObw4grUA"
+  "nextSyncToken": "w5ZGw6JFwqZmVcKsE8Kow4grw45QdyZOBMOZwpcsBMKaJcKgw4LDsmwWwrViTsKmw40Ew4VgdX_DuX5ew45UBsKPw5llecOCGCXCm8KZwpHCqlDDvx5sT8KZw5zChcKTZ1jDo8OtIw7DtcKwVGzDtGgHX8Of"
 }

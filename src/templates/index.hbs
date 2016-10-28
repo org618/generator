@@ -1,50 +1,48 @@
-<html>
-<head>
-<script src="https://use.typekit.net/zhu8tke.js"></script>
-<script>try{Typekit.load({ async: true });}catch(e){}</script>
-<style>
-  body {
-    background:#fff;
-    color:#222;
-    cursor:auto;
-    font-family:"brandon-grotesque",Helvetica,sans-serif;
-    font-style:normal;
-    line-height:1.5;
-    padding:0;
-  }
-  ul {
-    padding:0;
-  }
-  li {
-    display:block;
-    list-style:none;
-  }
-  .center {
-    margin:auto;
-    width:50%;
-    padding:10px;
-  }
-  .podcast_image {
-    width:100%;
-    max-width:600px;
-  }
-</style>
-</head>
-<body class="center">
-<img class="podcast_image" src="https:{{podcast.image.file.url}}"/>
-<h1>{{{podcast.title}}}</h1>
-<h2>{{{podcast.subtitle}}}</h2>
-<p>{{{podcast.description}}}</p>
-<ul>
-{{#each episodes}}
-<li><a href="{{media}}">{{slug}}</a></li>
-{{/each}}
-</ul>
-<a href="http://thethirdreel.com/feed.rss">subscribe with RSS</a>
-<a href="">subscribe with iTunes</a>
-<a href="">Youtube</a>
-<a href="">Twitter</a>
-<a href="">Facebook</a>
-<a href="">Soundcloud</a>
-</body>
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+		<title>{{{podcast.subtitle}}} | {{{podcast.title}}}</title>
+    <meta charset="utf-8"/>
+    <meta name="author" content="{{{podcast.title}}}">
+    <meta name="description" content="{{{podcast.description}}}">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="stylesheet" href="css/main.css"/>
+    <script data-cfasync="false" type="text/javascript" src="http://use.typekit.com/zhu8tke.js"></script>
+    <script data-cfasync="false" type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <style type="text/css">.wf-loading { visibility: hidden; }</style>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+	</head>
+	<body id="top">
+		<section id="banner" data-video="videos/newest-loop">
+			<div class="inner">
+				<header>
+          <img src="images/logo.png"/>
+					<h1>{{{podcast.title}}}</h1>
+          <h2>{{{podcast.subtitle}}}</h2>
+          <hr/>
+          <h3>coming soon to a podcast near you</h3>
+				</header>
+        <footer id="footer">
+          <div class="inner">
+            <ul class="icons">
+              <li><a href="https://twitter.com/thethirdreel" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+              <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+              <li><a href="mailto:3rdreel@gmail.com?subject=hello" class="icon fa-envelope"><span class="label">Email</span></a></li>
+            </ul>
+          </div>
+        </footer>
+			</div>
+      <div class="overlay"></div>
+		</section>
+    <script src="js/jquery.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/main.js"></script>
+    <script>
+    window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+    ga('create', 'UA-86338102-1', 'auto');
+    ga('send', 'pageview');
+    </script>
+    <script async src='https://www.google-analytics.com/analytics.js'></script>
+	</body>
 </html>
